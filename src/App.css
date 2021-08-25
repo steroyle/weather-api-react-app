@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+header {
+  color: #fff;
+  background: #2196f3;
+  padding: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 30px;
+}
+
+h3 {
+  margin: 5px 0 15px 0;
+}
+
+.github {
+  margin-top: 10px;
+}
+
+.search-form {
+  max-width: 310px;
+  /* border: 1px solid#ededed; */
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.search-form input,
+.search-form button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+.search-form input {
+  max-width: 100%;
+  width: 180px;
+  border: 1px solid#dddddd;
+  padding: 5px 10px;
+  margin: 0px 0px 15px 0px;
+}
+
+.search-form input:focus {
+  border-radius: 0;
+  outline:none;
+  border:1px solid #303f9f;
+  transition: border 200ms;
+}
+
+.search-form button {
+  color: #fff;
+  background: #3f51b5;
+  padding: 6px 14px;
+  border: 0px;
+  margin: 0px 0px 15px 0px;
+}
+
+.search-form button:hover {
+  background: #303f9f;
+  cursor: pointer;
+}

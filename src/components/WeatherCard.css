@@ -1,0 +1,31 @@
+.card {
+  border: 1px solid #efefef;
+  border-bottom: 0;
+  padding: 20px;
+  margin: 0px;
+  display: flex;
+}
+.card:last-child {
+  border-bottom: 1px solid #efefef;
+}
+
+.card__img {
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin-right: 20px;
+}
+
+.card__content {
+  font-size: 14px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.date {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}

@@ -1,0 +1,23 @@
+.weather-report {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 800px;
+  margin: auto;
+}
+
+.location-info {
+  text-align: left;
+  border: 1px solid #efefef;
+  border-bottom: 0;
+  padding: 20px;
+}
+
+.location-info h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.map {
+  min-height: 350px;
+}
